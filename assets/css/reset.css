@@ -1,0 +1,310 @@
+@charset "utf-8";
+
+/* reset */
+* {
+	font-family: "SpoqaHanSans", Dotum, Helvetica, AppleGothic, Sans-serif !important;
+	word-wrap: break-word;
+	word-break: keep-all;
+}
+html {
+	overflow-y: scroll;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+img {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+/*article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display:block}*/
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+form,
+fieldset,
+legend,
+label,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+a,
+summary,
+time,
+mark,
+audio,
+video,
+button {
+	margin: 0;
+	padding: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	line-height: 1;
+	font-size: 16px;
+	color: #000;
+	font-family: "SpoqaHanSans", Dotum, Helvetica, AppleGothic, Sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	letter-spacing: -0.5px;
+}
+dl,
+ul,
+ol,
+li {
+	list-style: none outside none;
+}
+legend {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+	line-height: 0;
+	text-indent: -9999em;
+	overflow: hidden;
+}
+label,
+input,
+button,
+select,
+img {
+	vertical-align: middle;
+}
+input,
+button {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	-webkit-border-radius: 0;
+	-webkit-appearance: none;
+}
+button {
+	cursor: pointer;
+	background: none;
+}
+select::-ms-expand {
+	display: none;
+}
+select {
+	cursor: pointer;
+	margin: 0;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+	border: none;
+	box-sizing: border-box;
+	display: inline-block;
+}
+option {
+	color: #000;
+	font-weight: 400;
+}
+select:focus,
+input:focus {
+	outline: none;
+	text-decoration: none;
+}
+p {
+	word-wrap: break-word;
+	word-break: keep-all;
+	line-height: 1.5;
+}
+hr {
+	display: none;
+}
+pre {
+	overflow-x: scroll;
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-all;
+}
+a {
+	cursor: pointer;
+	display: inline-block;
+}
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+}
+table {
+	width: 100%;
+	margin-bottom: 0;
+	table-layout: fixed;
+}
+table,
+td,
+th {
+	border-collapse: collapse;
+}
+th,
+td {
+	vertical-align: middle;
+	word-wrap: break-word; /*word-break:keep-all;*/
+}
+input,
+select,
+option,
+textarea {
+	font-weight: 300;
+}
+caption {
+	font-size: 0;
+	line-height: 0;
+	position: absolute;
+	left: -9999px;
+	top: -9999px;
+}
+em,
+span,
+i,
+b,
+a,
+strong {
+	font-size: inherit;
+	color: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+	font-style: inherit;
+}
+input {
+	border: none;
+}
+textarea:disabled,
+input:disabled {
+	background: #fcfafa;
+}
+textarea {
+	display: inline-block;
+	width: 100%;
+	border: none;
+	color: #000;
+	box-sizing: border-box;
+	padding: 16px;
+	resize: none;
+	font-size: 16px;
+	font-weight: 200;
+}
+/*placeholder color*/
+input::-webkit-input-placeholder {
+	color: #b3b3b3 !important;
+	font-weight: 200;
+}
+input::-moz-placeholder {
+	color: #b3b3b3 !important;
+	font-weight: 200;
+}
+input:-ms-input-placeholder {
+	color: #b3b3b3 !important;
+	font-weight: 200;
+}
+input:-moz-placeholder {
+	color: #b3b3b3 !important;
+	font-weight: 200;
+}
+textarea::-webkit-input-placeholder {
+	color: #b3b3b3 !important;
+	font-weight: 200;
+}
+textarea::-moz-placeholder {
+	color: #b3b3b3 !important;
+	font-weight: 200;
+}
+textarea:-ms-input-placeholder {
+	color: #b3b3b3 !important;
+	font-weight: 200;
+}
+textarea:-moz-placeholder {
+	color: #b3b3b3 !important;
+	font-weight: 200;
+}
+/* Remove Arrow. */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+input[type="button"] {
+	cursor: pointer;
+}
+img {
+	max-width: 100%;
+}
+/* Chrome AutoComplete Background Removal. */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+	transition: background-color 5000s ease-in-out 0s;
+	-webkit-transition: background-color 9999s ease-out;
+	-webkit-box-shadow: 0 0 0px 1000px #fff inset !important;
+	-webkit-text-fill-color: #000 !important;
+}
